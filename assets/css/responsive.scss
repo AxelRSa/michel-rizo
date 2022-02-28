@@ -1,0 +1,15 @@
+$responsive-sm: 576px;
+$responsive-md: 768px;
+$responsive-lg: 992px;
+$responsive-xl: 1200px;
+$responsive-xxl: 1400px;
+
+@media (min-width: $responsive-sm) {}
+
+@media (min-width: $responsive-md) {}
+
+@media (min-width: $responsive-lg) {}
+
+@media (min-width: $responsive-xl) {}
+
+@media (min-width: $responsive-xxl) {}
