@@ -45,6 +45,11 @@ export default {
     fix: true,
   },
 
+  // https://go.nuxtjs.dev/eslint
+  eslint: {
+    fix: true
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
