@@ -1,21 +1,6 @@
 <template lang="pug">
 .app
-  TheHeader
+  LayoutHeader
   Nuxt
-  TheFooter
 </template>
-<script>
-export default {
-  mounted() {
-    // handle responsive value
-    this.handleResponsiveValue()
-    window.addEventListener('resize', this.handleResponsiveValue)
-  },
-  methods: {
-    // handle responsive value
-    handleResponsiveValue() {
-      this.$store.commit('responsive/handleResponsiveValue')
-    },
-  },
-}
-</script>
+<script></script>
